@@ -254,4 +254,22 @@ footer p {
   .logo {
     font-size: 2rem;
   }
+  
+  form select, form input {
+    margin-bottom: 20px;
+    width: 87px;
+  }
+
+
+} 
+
+@media all and (max-width: 240px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  form select, form input {
+    margin-bottom: 20px;
+    width: 87px;
+  }
 } 
